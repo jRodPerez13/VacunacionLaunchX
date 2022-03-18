@@ -1,6 +1,6 @@
 # Práctica CSS Clon de página de vacunación
 
-Clon de la página de Adhiari Subekti que se muestra en el siguiente enlace [Link del diseño](./landingVacunaci%C3%B3n.png)el diseño.
+Clon de la página de Adhiari Subekti que se muestra en el siguiente enlace [Link del diseño](./landingVacunaci%C3%B3n.png) el diseño.
 
 La práctica consiste en lo siguiente:
 
