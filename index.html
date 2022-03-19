@@ -2,278 +2,320 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
-    <title>Practica Bootstrap</title>
-    <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+	<meta charset="utf-8" />
+	<title>Practica Bootstrap</title>
+	<link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body> 
-    <div class="container-fluid">        
-            <div class="container">    
-                <div class="row">        
-                    <div class="col-md-12">
-                        <nav class="navbar">
-                            <a class="navbar-brand" href="#">Vacunación</a>
-                            <a class="col-md-2 offset-md-2 nav-link" href="#">Base de Datos</a>
-                            <a class="nav-link" href="#" >Educación</a>
-                            <a class="nav-link" href="#" >Noticias</a>
-                            <a class="nav-link" href="#" >Regulación</a>
-                            <a class="btn btn-primary" href="#" >Hoax Buster</a>
-                        </nav>
-                    </div>
-                </div>
-            </div>
+	<div class="container-fluid">        
+			<div class="container">    
+				<div class="row">        
+					<div class="col-md-12">
+						<nav class="navbar">
+							<a class="navbar-brand" href="#">Vacunación</a>
+							<a class="col-md-2 offset-md-2 nav-link" href="#">Base de Datos</a>
+							<a class="nav-link" href="#" >Educación</a>
+							<a class="nav-link" href="#" >Noticias</a>
+							<a class="nav-link" href="#" >Regulación</a>
+							<a class="btn btn-primary" href="#" >Hoax Buster</a>
+						</nav>
+					</div>
+				</div>
+			</div>
 
-            <div class="container p-3">
-                <div class="row">
-                    <div class="col-sm-4 offset-sm-1">
-                        <div class="" style=" position:absolute; top: 25%; left:10%; ">
-                            <div class=" col-md-6">
-                                <h2 style="color: #1f3e72">Combatir el virus<br /> con vacunas</h2>
-                                <p>Detengamos esta pandemia matando el virus con una vacuna, no se deje a su familia infectarse.</p>
-                                <br />
-                                
-                                
-                                
-                                
-                                
-                            </div>                                                        
-                        </div>                        
-                    </div>
-                    <div class="col-sm-4">            
-                        <img src="img/enfermera.jpg" alt="enfermera"/>
-                    </div>
-                </div>
-            </div>
+			<div class="container p-3">
+				<div class="row">
+					<div class="col-sm-4 offset-sm-1">
+						<div class="" style=" position:absolute; top: 25%; left:10%; ">
+							<div class=" col-md-6">
+								<h2 style="color: #1f3e72">Combatir el virus<br /> con vacunas</h2>
+								<p>Detengamos esta pandemia matando el virus con una vacuna, no se deje a su familia infectarse.</p>
+								<br />                                                                                                                               
+							</div>                                                        
+						</div>                        
+					</div>
+					<div class="col-sm-4">            
+						<img src="img/enfermera.jpg" alt="enfermera"/>
+					</div>
+				</div>
+			</div>
+		<div class="container pt-1">
+			<div class="col-md-12">
+				<form>
+					<h5 style="color: #1f3e72">Programar tus vacunaciones</h5>
+						<div class="mb-3">
+							<div class="row">
+								<div class="col-sm-3">
+									<div class="card border-light">
+										<div class="card-body">
+											<h5 class="card-title">Localización</h5>
+												<input class="card-text" type="text" placeholder="Puebla,Mexico" />
+										</div>
+									</div>
+								</div>                                           										
+								<div class="col-sm-3">
+									<div class="card border-light">
+										<div class="card-body">
+											<h5 class="card-title">Fecha</h5>
+												<input class="card-text" type="date"/>
+										</div>
+									</div>                                                                                       
+								</div>
+								<div class="col-sm-4">
+									<div class="card border-light">
+										<div class="card-body">
+											<h5 class="card-title">Tipo de Vacuna</h5>
+												<select class="form-select card-text" aria-label="Default select example">
+												  <option selected>Astrazenca</option>
+												  <option value="1">Pfizer</option>
+												  <option value="2">Moderna</option>
+												  <option value="3">Sinovac</option>
+												</select>
+										</div>
+									</div>                                                                                       
+								</div>
+								<div class="col-sm-2">                                            
+									<div class="card border-light">
+										<div class="card-body">
+											<button class="btn btn-primary">Enviar</button>                                                        
+										</div>
+									</div>                                                                                      								
+								</div>                                                                             
+							</div>
+						</div>
+				</form>								
+			</div>
+		</div>
 
-            <div class="container-lg pt-4">
-                <div class="container">
-                    <div class="col-md-12 align-content-center">
-                        <div class="container">
-                            <img src="img/farmaceuticas.png" title="Marcas de vacunas"  width="1080" height="150"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container pt-md-5">
-                <div class="row justify-content-md-center">
-                    <div class="col-md-6 justify-content-center">
-                        <h4 style="color: #1f3e72">Combatir el virus<br /> con vacunas</h4>
-                        <p>Para evitar cualquier duda sobre la vacunación contra el COVID-19, identifique 
-                            los siguientes 4 beneficios de la vacunación contra el COVID-19:</p>
-                    </div>
-                    <div class="col-md-4 offset-2 justify-content-center">                        
-                        <p></p>
-                        <hr style="color: #1f3e72; block-size: 3px;">
-                        <p></p>
-                    </div>
-                </div>            
-            </div>
+			<div class="container-lg pt-4">
+				<div class="container">
+					<div class="col-md-12 align-content-center">
+						<div class="container">
+							<img src="img/farmaceuticas.png" title="Marcas de vacunas"  width="1080" height="150"/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container pt-md-5">
+				<div class="row justify-content-md-center">
+					<div class="col-md-6 justify-content-center">
+						<h4 style="color: #1f3e72">Combatir el virus<br /> con vacunas</h4>
+						<p>Para evitar cualquier duda sobre la vacunación contra el COVID-19, identifique 
+							los siguientes 4 beneficios de la vacunación contra el COVID-19:</p>
+					</div>
+					<div class="col-md-4 offset-2 justify-content-center">                        
+						<p></p>
+						<hr style="color: #1f3e72; block-size: 3px;">
+						<p></p>
+					</div>
+				</div>            
+			</div>
 
-            <div class="container pt-3">
-                <div class="row justify-content-center">
-                    
+			<div class="container pt-3">
+				<div class="row justify-content-center">
+					
 
-                    <div class="card" style="width: 16rem; padding: 2px">
-                        <div class="card-img-top" src="..." alt="Card image">
-                            <div class="card-body">
-                                <h5 class="card-title">Minimiar la propagacion del virus</h5>
-                                <p class="card-text">Se ha demostrado que la vacuna es eficaz para evitar que 
-                                    alguien se infecte con el coronavirus</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card" style="width:16rem; padding:2px">
-                        <div class="card-img-top" src="..." alt="Card image">
-                            <div class="card-body">
-                                <h5 class="card-title">Formando anticuerpos</h5>
-                                <p class="card-text">Se ha demostrado que la vacuna contra la COVID-19 ayuda a dar forma 
-                                    a la respuesta de anticuerpos del sistema inmunitario.</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card" style="width:16rem; padding:2px">
-                        <div class="card-img-top" src="..." alt="Card image">
-                            <div class="card-body">
-                                <h5 class="card-title">Proteger a las personas cercanas</h5>
-                                <p class="card-text">Los beneficios de la vacunación contra la COVID-19 son que la vacuna
-                                    que recibimos tambien puede ayudar aa proteger a las personas que nos rodean.</p>                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 16rem; padding: 2px">
-                        <div class="card-img-top" src="..." alt="Card image">
-                            <div class="card-body">
-                                <h5 class="card-title">Crear inmunidad de grupo</h5>
-                                <p class="card-text">La vacunación contra la COVID-19 es beneficiosa para crear inmunidad
-                                    de grupo contra la inmunidad</p>                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+					<div class="card" style="width: 16rem; padding: 2px">
+						<div class="card-img-top" src="..." alt="Card image">
+							<div class="card-body">
+								<h5 class="card-title">Minimiar la propagacion del virus</h5>
+								<p class="card-text">Se ha demostrado que la vacuna es eficaz para evitar que 
+									alguien se infecte con el coronavirus</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="card" style="width:16rem; padding:2px">
+						<div class="card-img-top" src="..." alt="Card image">
+							<div class="card-body">
+								<h5 class="card-title">Formando anticuerpos</h5>
+								<p class="card-text">Se ha demostrado que la vacuna contra la COVID-19 ayuda a dar forma 
+									a la respuesta de anticuerpos del sistema inmunitario.</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="card" style="width:16rem; padding:2px">
+						<div class="card-img-top" src="..." alt="Card image">
+							<div class="card-body">
+								<h5 class="card-title">Proteger a las personas cercanas</h5>
+								<p class="card-text">Los beneficios de la vacunación contra la COVID-19 son que la vacuna
+									que recibimos tambien puede ayudar aa proteger a las personas que nos rodean.</p>                                
+							</div>
+						</div>
+					</div>
+					<div class="card" style="width: 16rem; padding: 2px">
+						<div class="card-img-top" src="..." alt="Card image">
+							<div class="card-body">
+								<h5 class="card-title">Crear inmunidad de grupo</h5>
+								<p class="card-text">La vacunación contra la COVID-19 es beneficiosa para crear inmunidad
+									de grupo contra la inmunidad</p>                                
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-            <!----->
-            <div class="container pt-5">               
-                    <div class="row">
-                        <div class="col-md-6">   
-                            <div class="d-flex justify-content-start">
-                                <img src="img/OK.jpg" title="Uso de cubrebocas" width="540" />
-                            </div>                             
-                        </div>
-                        <div class="col-md-6">
-                            <div class="d-flex justify-content-center">
-                                <div class="container">
-                                    <h2 style="color: #1f3e72">Preparativos antes de la vacuna</h2>
-                                    <p><br /> El exito de las vacunas está fuertemente influenciado por la fortaleza del sistema inmunológico 
-                                    del cuerpo. Por lo tanto, hay varias cosas que se pueden intentar para que la vacuna contra la COVID-19 funcione:
-                                    <br /></p>
+			<!----->
+			<div class="container pt-5">               
+					<div class="row">
+						<div class="col-md-6">   
+							<div class="d-flex justify-content-start">
+								<img src="img/OK.jpg" title="Uso de cubrebocas" width="540" />
+							</div>                             
+						</div>
+						<div class="col-md-6">
+							<div class="d-flex justify-content-center">
+								<div class="container">
+									<h2 style="color: #1f3e72">Preparativos antes de la vacuna</h2>
+									<p><br /> El exito de las vacunas está fuertemente influenciado por la fortaleza del sistema inmunológico 
+									del cuerpo. Por lo tanto, hay varias cosas que se pueden intentar para que la vacuna contra la COVID-19 funcione:
+									<br /></p>
 
-                                    <div class="card w-75">
-                                        <div class="card-body">
-                                            <h5 class="card-title dropdown-toggle" data-bs-toggle="collapse" href="#collapseExample" 
-                                            role="button" aria-expanded="false" aria-controls="collapseExample">Evite las bebidas alcoholicas</h5>
-                                            <div class="collapse" id="collapseExample">
-                                                <div class="card-text">
-                                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user
-                                                    activates the relevant trigger.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card w-75 pt-1">
-                                        <div class="card-body">
-                                            <h5 class="card-title dropdown-toggle" data-bs-toggle="collapse" href="#collapseExample2" role="button"
-                                                aria-expanded="false" aria-controls="collapseExample">Evite el estres</h5>
-                                            <div class="collapse" id="collapseExample2">
-                                                <div class="card-text">
-                                                    El estres tiene un profundo efecto sobre el trabajo inmunologico.
-                                                    Ademas, el estres prolongado puede aumentar la produccion de cortisol y el estres oxidativo en el cuerpo
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card w-75 pt-1">
-                                        <div class="card-body">
-                                            <h5 class="card-title dropdown-toggle" data-bs-toggle="collapse" href="#collapseExample3" role="button"
-                                                aria-expanded="false" aria-controls="collapseExample">Comer comida sana</h5>
-                                            <div class="collapse" id="collapseExample3">
-                                                <div class="card-text">
-                                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when
-                                                    the user
-                                                    activates the relevant trigger.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                     <div class="card w-75 pt-1">
-                                        <div class="card-body">
-                                            <h5 class="card-title dropdown-toggle" data-bs-toggle="collapse" href="#collapseExample4" role="button"
-                                                aria-expanded="false" aria-controls="collapseExample">Dormir lo suficiente</h5>
-                                            <div class="collapse" id="collapseExample4">
-                                                <div class="card-text">
-                                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when
-                                                    the user
-                                                    activates the relevant trigger.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card w-75 pt-1">
-                                        <div class="card-body">
-                                            <h5 class="card-title dropdown-toggle" data-bs-toggle="collapse" href="#collapseExample4" role="button"
-                                                aria-expanded="false" aria-controls="collapseExample">Hacer ejercicio o actividad fisica</h5>
-                                            <div class="collapse" id="collapseExample4">
-                                                <div class="card-text">
-                                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when
-                                                    the user
-                                                    activates the relevant trigger.
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>                            
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <!----->
-            
-            <div class="container pt-5">
-                <div class="row">
-                    <div class="col-sm-6">                       
-                                               
-                        <h2 style="color: #1f3e72">Contacto de Emergencía</h2>
-                        <p>Comuniquese ccon uno de los contactos a continuación si usted o su familia se sienten mal y 
-                            tienen síntommas similares a los de COVID-19, asegúrese de cuidarse también antes de informarnos:</p>
-                        <br />
-                        <div class="row">
-                            <div class="card" style="width:16rem;">
-                                <div class="card-img-top" src="..." alt="Card image">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Llamada</h5>
-                                        <p class="card-text">Some quick example text to build on the card title</p>
-                                        <a href="#" class="btn btn-primary">Llamar ahora</a> 
-                                    </div>
-                                </div>
-                            </div>     
-                            <div class="card" style="width:16rem;">
-                                <div class="card-img-top" src="..." alt="Card image">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Chat</h5>
-                                        <p class="card-text">021-123-145-14</p>
-                                        <a href="#" class="btn btn-primary">Chatear ahora</a> 
-                                    </div>
-                                </div>
-                            </div>                        
-                        </div>
-                        <div class="row">
-                            <div class="card" style="width:16rem;">
-                                <div class="card-img-top" src="..." alt="Card image">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Video Llamada</h5>
-                                        <p class="card-text">021-123-145-14</p>
-                                        <a href="#" class="btn btn-primary">Videollamar</a> 
-                                    </div>
-                                </div>
-                            </div>     
-                            <div class="card" style="width:16rem;">
-                                <div class="card-img-top" src="..." alt="Card image">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Mensajeria</h5>
-                                        <p class="card-text">021-123-145-14</p>
-                                        <a href="#" class="btn btn-primary">Mensajear</a> 
-                                    </div>
-                                </div>
-                            </div>                        
-                        </div>
-                                                                       
-                                               
-                    </div>
-                    <div class="col-sm-6">            
-                        <img src="img/contacto.jpg" width="620" height="580" alt="Contacto de Emergencias"/>
-                    </div>
-                </div>
-            </div>
+									<div class="card w-75">
+										<div class="card-body">
+											<h5 class="card-title dropdown-toggle" data-bs-toggle="collapse" href="#collapseExample" 
+											role="button" aria-expanded="false" aria-controls="collapseExample">Evite las bebidas alcoholicas</h5>
+											<div class="collapse" id="collapseExample">
+												<div class="card-text">
+													Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user
+													activates the relevant trigger.
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card w-75 pt-1">
+										<div class="card-body">
+											<h5 class="card-title dropdown-toggle" data-bs-toggle="collapse" href="#collapseExample2" role="button"
+												aria-expanded="false" aria-controls="collapseExample">Evite el estres</h5>
+											<div class="collapse" id="collapseExample2">
+												<div class="card-text">
+													El estres tiene un profundo efecto sobre el trabajo inmunologico.
+													Ademas, el estres prolongado puede aumentar la produccion de cortisol y el estres oxidativo en el cuerpo
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card w-75 pt-1">
+										<div class="card-body">
+											<h5 class="card-title dropdown-toggle" data-bs-toggle="collapse" href="#collapseExample3" role="button"
+												aria-expanded="false" aria-controls="collapseExample">Comer comida sana</h5>
+											<div class="collapse" id="collapseExample3">
+												<div class="card-text">
+													Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+													the user
+													activates the relevant trigger.
+												</div>
+											</div>
+										</div>
+									</div>
+									 <div class="card w-75 pt-1">
+										<div class="card-body">
+											<h5 class="card-title dropdown-toggle" data-bs-toggle="collapse" href="#collapseExample4" role="button"
+												aria-expanded="false" aria-controls="collapseExample">Dormir lo suficiente</h5>
+											<div class="collapse" id="collapseExample4">
+												<div class="card-text">
+													Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+													the user
+													activates the relevant trigger.
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card w-75 pt-1">
+										<div class="card-body">
+											<h5 class="card-title dropdown-toggle" data-bs-toggle="collapse" href="#collapseExample4" role="button"
+												aria-expanded="false" aria-controls="collapseExample">Hacer ejercicio o actividad fisica</h5>
+											<div class="collapse" id="collapseExample4">
+												<div class="card-text">
+													Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+													the user
+													activates the relevant trigger.
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>                            
+							</div>
+						</div>
+					</div>
+				</div>
+			<!----->
+			
+			<div class="container pt-5">
+				<div class="row">
+					<div class="col-sm-6">                       
+											   
+						<h2 style="color: #1f3e72">Contacto de Emergencía</h2>
+						<p>Comuniquese ccon uno de los contactos a continuación si usted o su familia se sienten mal y 
+							tienen síntommas similares a los de COVID-19, asegúrese de cuidarse también antes de informarnos:</p>
+						<br />
+						<div class="row">
+							<div class="card" style="width:16rem;">
+								<div class="card-img-top" src="..." alt="Card image">
+									<div class="card-body">
+										<h5 class="card-title">Llamada</h5>
+										<p class="card-text">Some quick example text to build on the card title</p>
+										<a href="#" class="btn btn-primary">Llamar ahora</a> 
+									</div>
+								</div>
+							</div>     
+							<div class="card" style="width:16rem;">
+								<div class="card-img-top" src="..." alt="Card image">
+									<div class="card-body">
+										<h5 class="card-title">Chat</h5>
+										<p class="card-text">021-123-145-14</p>
+										<a href="#" class="btn btn-primary">Chatear ahora</a> 
+									</div>
+								</div>
+							</div>                        
+						</div>
+						<div class="row">
+							<div class="card" style="width:16rem;">
+								<div class="card-img-top" src="..." alt="Card image">
+									<div class="card-body">
+										<h5 class="card-title">Video Llamada</h5>
+										<p class="card-text">021-123-145-14</p>
+										<a href="#" class="btn btn-primary">Videollamar</a> 
+									</div>
+								</div>
+							</div>     
+							<div class="card" style="width:16rem;">
+								<div class="card-img-top" src="..." alt="Card image">
+									<div class="card-body">
+										<h5 class="card-title">Mensajeria</h5>
+										<p class="card-text">021-123-145-14</p>
+										<a href="#" class="btn btn-primary">Mensajear</a> 
+									</div>
+								</div>
+							</div>                        
+						</div>
+																	   
+											   
+					</div>
+					<div class="col-sm-6">            
+						<img src="img/contacto.jpg" width="620" height="580" alt="Contacto de Emergencias"/>
+					</div>
+				</div>
+			</div>
 
-            <!--footer-->
-            <div class="blockquote-footer pt-5">
-                <div class="modal-footer">
-                    <p>Footer</p>
-                </div>
-            </div>
+			<!--footer-->
+			<div class="blockquote-footer pt-5">
+				<div class="modal-footer">
+					<p>Footer</p>
+				</div>
+			</div>
 
-                               
-    </div>
+							   
+	</div>
 
-    
-     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	
+	 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
